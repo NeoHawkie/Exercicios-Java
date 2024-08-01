@@ -1,0 +1,52 @@
+Exercícios com ArrayList em Java
+
+Nível Fácil
+
+Adicionar e Imprimir Elementos:
+Crie um ArrayList de strings, adicione cinco nomes de cidades, imprima todas as cidades na lista.
+
+Remover Elementos:
+Crie um ArrayList de inteiros, adicione os números de 1 a 10, remova os números pares da lista, imprima a lista resultante.
+
+Acessar Elementos por Índice:
+Crie um ArrayList de doubles, adicione cinco números decimais, acesse e imprima o terceiro elemento da lista.
+
+Verificar Contém:
+Crie um ArrayList de strings, adicione três cores ("Vermelho", "Verde", "Azul"), verifique se a cor "Amarelo" está na lista e imprima o resultado.
+
+Tamanho da Lista:
+Crie um ArrayList de caracteres, adicione quatro letras e imprima o tamanho da lista.
+
+Nível Intermediário
+
+Substituir Elementos:
+Crie um ArrayList de strings, adicione cinco nomes de frutas e substitua o terceiro nome por "Morango". Imprima a lista resultante.
+
+Ordenar Elementos:
+Crie um ArrayList de inteiros, adicione dez números aleatórios, ordene a lista em ordem crescente e imprima.
+
+Iterar com Índice:
+Crie um ArrayList de strings, adicione cinco nomes de países, use um loop for com índice para imprimir cada país na lista.
+
+Verificar Duplicatas:
+Crie um ArrayList de inteiros, adicione dez números com alguns duplicados, verifique e imprima se há duplicatas na lista.
+
+Copiar para Outro ArrayList:
+Crie um ArrayList de strings, adicione quatro nomes de animais, copie todos os elementos para outro ArrayList e imprima o novo ArrayList.
+
+Nível Difícil
+
+Remover Duplicatas:
+Crie um ArrayList de inteiros, adicione dez números com alguns duplicados, eemova as duplicatas sem usar estruturas de dados adicionais e imprima a lista.
+
+Intersecção de Duas Listas:
+Crie dois ArrayLists de strings, adicione cinco nomes em cada lista com alguns nomes comuns, encontre e imprima a intersecção das duas listas.
+
+União de Duas Listas sem Duplicatas:
+Crie dois ArrayLists de inteiros, adicione cinco números em cada lista com alguns números comuns, crie uma lista que contenha a união dos elementos sem duplicatas e imprima.
+
+Filtrar Palavras por Comprimento:
+Crie um ArrayList de strings, adicione dez palavras, filtre e imprima todas as palavras com mais de cinco caracteres.
+
+Reverter a Lista:
+Crie um ArrayList de strings, adicione seis palavras, inverta a ordem dos elementos na lista sem usar bibliotecas auxiliares e imprima a lista revertida.
