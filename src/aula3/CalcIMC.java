@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author TI
  */
-public class ex4 {
+public class CalcIMC {
     public static void main(String args[]){
         
         //calculo do imc 
