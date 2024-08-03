@@ -37,7 +37,7 @@ Crie um ArrayList de strings, adicione quatro nomes de animais, copie todos os e
 Nível Difícil
 
 11 Remover Duplicatas:
-Crie um ArrayList de inteiros, adicione dez números com alguns duplicados, eemova as duplicatas sem usar estruturas de dados adicionais e imprima a lista.
+Crie um ArrayList de inteiros, adicione dez números com alguns duplicados, e remova as duplicatas sem usar estruturas de dados adicionais e imprima a lista.
 
 12 Intersecção de Duas Listas:
 Crie dois ArrayLists de strings, adicione cinco nomes em cada lista com alguns nomes comuns, encontre e imprima a intersecção das duas listas.
