@@ -17,16 +17,13 @@ public class ex01 {
         };
         
         int soma = 0;
-//        for (int i = 0; i < 3; i++) {
-//            for (int j = 0; j < 3; j++) {
-//                soma += matriz[i][j];
-//                System.out.println(matriz[i][j]);
-//            }
-//        }
-for (int numero : matriz[][]) {
-            
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                soma += matriz[i][j];
+                System.out.println("somando " + matriz[i][j]);
+            }
         }
-        System.out.println("Soma: " + soma);
-        System.out.println(matriz[2][3]); //teste de matriz irregular
+        System.out.println("Soma total: " + soma);
+        System.out.println("matriz irregular: "+ matriz[2][3]); //teste de matriz irregular
     }
 }
