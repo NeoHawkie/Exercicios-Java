@@ -9,5 +9,13 @@ package exercicios13.ex4;
  * @author User
  */
 public class retangulo {
+    double base, altura;
     
+    public double calcularArea(){
+    return (base*altura);
+    }
+    
+    public double calcularPerimetro(){
+        return ((base*2)+(altura*2));
+    }
 }
