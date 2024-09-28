@@ -3,12 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package exercicios14.ex01;
-
 /**
  *
  * @author Wallyson M. Lima
  */
-public class pessoa {
+public class pessoa implements exercicios15.ex04.comparable{
     String nome;
     int idade;
     double altura;
@@ -31,7 +30,11 @@ public class pessoa {
         return altura;
     }
 
-   
-    
-    
+    @Override //referente ao exercicios15.ex04
+    public void comparaIdade(pessoa p1, pessoa p2) {
+        int dif = Math.abs(p1.idade - p2.idade);
+        System.out.println(String.format("%s, com %d anos, tem %d anos de"
+                + " diferença de %s, que tem %d anos.",
+                p1.nome, p1.idade, dif, p2.nome, p2.idade));
+    }
 }
