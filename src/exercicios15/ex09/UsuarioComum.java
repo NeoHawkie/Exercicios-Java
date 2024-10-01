@@ -6,19 +6,18 @@ package exercicios15.ex09;
 
 /**
  *
- * @author Wallyson M. de Lima
+ * @author Wallyson M. Lima
  */
-public class Administrador implements ContaUsuario{
-    
-    
+public class UsuarioComum implements ContaUsuario{
+
     @Override
     public void acessarSistema() {
-        System.out.println("Entre com usuario e senha:"); //wip
+        System.out.println("Entre com usuario e senha: ");//wip
     }
 
     @Override
     public void realizarOperacao() {
-        System.out.println("Selecione a operacao desejada:"); //wip
+        System.out.println("ACESSO RESTRITO");
     }
     
 }
