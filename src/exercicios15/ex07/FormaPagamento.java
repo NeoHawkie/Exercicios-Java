@@ -2,14 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package exercicios15.ex06;
+package exercicios15.ex07;
 
 /**
  *
- * @author Wallyson M. Lima
+ * @author Wallyson M. de Lima
  */
-public interface dispositivoEletronico {
-    public abstract void ligar();
-    public abstract void desligar();
-    public abstract void obterStatus();
+public interface FormaPagamento {
+    public abstract void efetuarPagamento(double valor);
 }
