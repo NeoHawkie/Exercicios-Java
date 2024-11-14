@@ -6,8 +6,8 @@ package aulas.interfacegrafica;
 
 /**
  *
- * @author Wallyson M. de Lima
+ * @author Aluno
  */
-public class DAO {
+public class ModelUsuario {
     
 }

@@ -6,8 +6,8 @@ package aulas.interfacegrafica;
 
 /**
  *
- * @author Aluno
+ * @author Wallyson M. de Lima
  */
-public class view {
+public class DAO_BD {
     
 }

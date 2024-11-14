@@ -6,8 +6,8 @@ package aulas.interfacegrafica;
 
 /**
  *
- * @author Wallyson M. de Lima
+ * @author Wallyson M. Lima
  */
-public class DAO {
+public class ControllerConexao {
     
 }

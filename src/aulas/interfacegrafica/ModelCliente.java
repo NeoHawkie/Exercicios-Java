@@ -8,6 +8,6 @@ package aulas.interfacegrafica;
  *
  * @author Aluno
  */
-public class controller {
+public class ModelCliente {
     
 }
