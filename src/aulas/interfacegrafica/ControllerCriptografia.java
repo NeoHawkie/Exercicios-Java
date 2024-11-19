@@ -40,9 +40,9 @@ public class ControllerCriptografia {
     }
     
     public String criptografar(){
-        String informacao = getInformacao();
-        MessageDigest messageDigest;
-        StringBuilder hexString = null;
+        String informacao = getInformacao(); //busca a informação a crioptografar
+        MessageDigest messageDigest; //obj responsável por gerar a hash
+        StringBuilder hexString = null; //StringBuilder é uma classe para construir Strings. pode ir sendo adicionado ao longo do uso.
         
         try{
             messageDigest = MessageDigest.getInstance(getPadrao());

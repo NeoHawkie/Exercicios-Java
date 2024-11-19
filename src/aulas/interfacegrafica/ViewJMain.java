@@ -4,17 +4,22 @@
  */
 package aulas.interfacegrafica;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Aluno
  */
 public class ViewJMain extends javax.swing.JFrame {
-
+    private ArrayList<ModelCliente> clientes;
     /**
      * Creates new form ViewJMain
      */
     public ViewJMain() {
         initComponents();
+        
+        clientes = new ArrayList<>();
+        clientes.add(new ModelCliente("1", "João", "000.000.000-01", "joao@xemail.com", "51900000001" , "Av. Emancipação 260"));
     }
 
     /**
